@@ -34,4 +34,9 @@ public class VocalesTest {
     public void test5() {
         assertEquals(6, Vocales.contarvocales ("Cadena S1n Vocales"));
     }
+
+    @Test // Este test lo he implementado yo para probar vocales con acento
+    public void test6() {
+        assertEquals(5, Vocales.contarvocales ("Él íd0l0 ár4b3 ún1c4m3nt3 c4nt4 óp3r4"));
+    }
 }
